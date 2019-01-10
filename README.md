@@ -1,2 +1,2 @@
 # My personal website
-This project is both a personal site for me, and an attempt to learn some about Node.js and Express. You can find the current version deployed on Heroku at [tomburnett.space](tomburnett.space). All images are either ones I took, designs I made, or official icons for external services (such as here and LinkedIn). 
+This project is both a personal site for me, and an attempt to learn some about Node.js and Express. You can find the current version deployed on Heroku at [tomburnett.space](www.tomburnett.space). All images are either ones I took, designs I made, or official icons for external services (such as here and LinkedIn). 
