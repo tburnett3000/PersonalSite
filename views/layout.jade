@@ -4,14 +4,16 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='icon', href='/images/favicon.ico')
     script(src='/js/bootstrap.bundle.js', defer)
     script(src='/js/popper.js')
     script(src='/js/jquery.min.js')
   body
     header
-      img.img-fluid(src="/images/jan19-3-2.png")
+      img.img-fluid(src="/images/jan19-3-2.jpg")
     nav(class="navbar navbar-expand-lg fixed-top navbar-light")
-      a(class="navbar-brand" href="/") Tom
+      a.navbar-brand(href="/")
+        img(src='/images/logo2.png')
       button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
         span(class="navbar-toggler-icon")
       div(class="collapse navbar-collapse" id="navbarNavAltMarkup")
@@ -19,4 +21,11 @@ html
           a(class="nav-item nav-link" href="/about") About
           a(class="nav-item nav-link" href="/contact") Contact
     block content
-    footer 
+    footer
+      .row
+        .spacer 
+      .row
+        .col-md-6
+          p.text-left Created by Tom Burnett
+        .col-md-6
+          p.text-right © 2019 Tom Burnett 
