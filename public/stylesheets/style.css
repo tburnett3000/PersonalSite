@@ -1,11 +1,9 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  background-image: url("/images/jan19-3-2.png");
+  background-size: cover;
+  height: 100vh;
+  min-height: 400px;
 }
-a {
-  color: #00b7ff;
-}
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
+.navbar {
+  background: rgba(248,249,250,0.5);
 }
