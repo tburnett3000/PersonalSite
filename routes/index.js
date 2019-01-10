@@ -10,8 +10,8 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About Me' });
 });
 
-router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact Info' });
+router.get('/findme', function(req, res, next) {
+  res.render('findme', { title: 'Where to Find Me' });
 });
   
 module.exports = router;

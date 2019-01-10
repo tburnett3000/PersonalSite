@@ -11,13 +11,10 @@
   height: 30px;
   width: 30px;
 }
-.github-link {
+.contact-logo {
   height: 14px;
-  width: 14px;
-}
-.email-link {
-  height: 14px;
-  width: 14px;
+  width: 24px;
+  padding-right: 10px;
 }
 .spacer {
   padding-bottom: 10vh;
@@ -27,4 +24,7 @@
 }
 .col-md-6 .text-right {
   padding-right: 2vh;
+}
+.title {
+  font-family: 'Courier New', Courier, monospace;
 }

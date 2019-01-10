@@ -7,7 +7,6 @@ var stylus = require('stylus');
 var popper = require('popper');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -26,7 +25,6 @@ app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js'));
 app.use('/js', express.static(__dirname + '/node_modules/popper.js/dist/umd'));
 app.use('/js', express.static(__dirname + '/node_modules/jquery/dist'));
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
